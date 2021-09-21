@@ -1,0 +1,14 @@
+{
+    "name": "Ubuntu Server",
+    "short_name": "Ubuntu Server",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "Web App",
+    "icons": [
+        {
+        "src": "assets/ubuntu/ubuntu.svg",
+        "sizes": "any"
+        }
+    ]
+}
