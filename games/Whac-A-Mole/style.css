@@ -9,15 +9,16 @@
 
 #whack-a-mole {
     background-color: darkolivegreen;
-    border: solid 20px #000;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .hole {
-    background-image: url("images/hole.png");
+    background-image: url("./assets/images/hole.svg");
     background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
     height: calc(50vw / 3 - 20px);
 }
 
