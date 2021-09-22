@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#whack-a-mole {
+    background-color: darkolivegreen;
+    border: solid 20px #000;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hole {
+    background-image: url("images/hole.png");
+    background-size: contain;
+    height: calc(50vw / 3 - 20px);
+}
+
+@media (max-width: 576px) {
+    .w-sm-75 {
+        width: 75% !important;
+    }
+    .hole {
+        height: calc(75vw / 3 - 20px);
+    }
+}
